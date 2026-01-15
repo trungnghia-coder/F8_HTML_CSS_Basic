@@ -1,0 +1,329 @@
+.header {
+    background-color: #ffffff;
+}
+
+.header .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar__brand{
+    display: flex;
+    text-decoration: none;
+}
+
+.navbar__title{
+    margin-left: 20px;
+    font-size: 25px;
+    font-weight: 100;
+    color: black;
+}
+
+.header .navbar__logo {
+    height: 40px;
+}
+
+.navbar__item{
+    display: block;
+    text-decoration: none;
+    font-size: 15px;
+    color: var(--primary-color);
+}
+
+.container{
+    background-color: var(--primary-color);
+}
+
+.background{
+    position: relative;
+    background-color: var(--primary-color);
+}
+
+.background img{
+    margin: 0 auto;
+    display: block;
+}
+
+.signup__form{
+    display: grid;
+    width: 100%;
+    position: absolute;
+    right: 14%;
+    top: 15%;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+.signup__form h3{
+    font-weight: 400;
+    font-size: 20px;
+    margin: 0 0 30px 0;
+}
+
+.signup__form .signup__input{
+    padding: 10px;
+    margin-bottom: 30px;
+    color:#dbdbdb;
+    border: 1px solid #dbdbdb;
+    border-radius: 2px;
+    font-size: 14px;
+}
+
+.signup__form .signup__input::placeholder{
+    color: #dbdbdb;
+}
+
+.signup__form .signup__btn{
+    background-color: var(--primary-color);
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.signup__btn:hover{
+    opacity: 0.9;
+}
+
+.signup__or{
+    display: flex;
+    align-items: center;
+    margin: 30px 0px 10px 0px;
+    gap: 10px;
+    font-size: 14px;
+    color: #dbdbdb;
+    text-align: center;
+}
+
+.signup__line{
+    background-color: #dbdbdb;
+    flex: 1;
+    height: 1px;
+}
+
+.signup__social-item{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+.signup__social-link{
+    width: 100%;
+    border: 1px solid #dbdbdb;
+    background-color: #ffffff;
+    border-radius: 2px;
+    padding: 10px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup__social-link:hover{
+    background-color: #f5f5f5;
+    cursor: pointer;
+}
+
+.signup__social-link span{
+    margin-left: 5px;
+}
+
+.signup__policy{
+    font-size: 12px;
+    color: black;
+    text-align: center;
+    margin-top: 15px;
+    padding: 0px 30px 0;
+}
+
+.signup__policy a,
+.signup__login a{
+        color: var(--primary-color);
+        text-decoration: none;
+    }
+.signup__login{
+    font-size: 14px;
+    color: #dbdbdb;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer{
+    display: block;
+    background-color: #f5f5f5;
+    padding: 30px;
+    width: 100%;
+}
+
+.footer__content-top{
+    display:flex;
+    gap: 50px;
+    justify-content: center;
+    width: auto;
+    text-decoration: none;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.footer__content-top h3{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-weight: 1000;
+    font-size: 13px;
+}
+
+.footer__content-top ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer__content-top a{
+    text-decoration: none;
+    color: #565656;
+    font-size: 13px;
+}
+
+.footer__content-top div{
+    width: 200px;
+}
+
+.footer__content-service{
+    margin-bottom: 20px;
+}
+
+.footer__content-about li,
+.footer__content-service li{ 
+    margin-bottom: 10px;
+    color: #565656;
+}
+
+.footer__content-business-list {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.footer__content-business h3{
+    margin: 20px 0;
+}
+
+.footer__content-business li{
+    background-color: var(--white-color);
+    margin: 5px 5px 0px 0px;
+    padding: 3px;
+    border-radius: 2px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.footer__content-follow{
+    display: grid;
+    height: 50px;
+}
+
+.footer__content-follow a{
+    margin-bottom: 10px;
+}
+
+.footer__content-apps {
+    display:flex;
+    height:100px;
+}
+
+.footer__qr-img{
+    width: 100%;
+    height: 100%;
+    margin-right: 10px;
+}
+
+.footer__qr_apps{
+    display: grid;
+}
+.footer__qr_apps a{
+    width: 100%;
+    background-color: var(--white-color);
+    padding: 2px;
+    margin-bottom: 6.5px;
+}
+.footer__qr_apps img{
+    padding: 5px;
+    display: block;
+    margin: 0 auto;
+    height: 25px;
+}
+
+.footer__content-nation{
+    display:flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 30px 0px;
+}
+
+.footer__content-nation p{
+    color: #565656;
+    font-size: 15px;
+}
+
+.footer__content-nation-links{
+    position: relative;
+    display:flex;
+    gap: 5px;
+}
+
+.footer__content-nation-links a{
+    text-decoration: none;
+    color: #565656;
+    margin-left: 5px;
+}
+
+.footer__content-policy{
+    margin: 70px 10px 10px 10px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.footer__policy-link{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 300;
+    color: #565656;
+    margin: 0px 15px;
+    font-size: 14px;
+}
+
+.footer__content-certification {
+    text-align: center;
+    margin: 40px;
+}
+
+.footer__content-certification-imgs{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.footer__content-certification-imgs img{
+    margin: 0 10px;
+    height: 50px;
+}
+
+.footer__content-certification p{
+    color: #565656;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.footer__content-information{
+    text-align: center;
+    color: #565656;
+    font-size: 12px;
+}
