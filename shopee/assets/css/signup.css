@@ -92,10 +92,17 @@
     opacity: 0.9;
 }
 
+.signup__forgot-password{
+    text-decoration: none;
+    font-size: 12px;
+    color: #05a;
+    margin-top: 10px;
+}
+
 .signup__or{
     display: flex;
     align-items: center;
-    margin: 30px 0px 10px 0px;
+    margin: 10px 0px 10px 0px;
     gap: 10px;
     font-size: 14px;
     color: #dbdbdb;
@@ -213,7 +220,7 @@
 }
 
 .footer__content-business h3{
-    margin: 20px 0;
+    margin-bottom: 20px;
 }
 
 .footer__content-business li{
