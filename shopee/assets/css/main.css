@@ -646,6 +646,7 @@
     border-radius: 2px;
     color: black;
     width: 100px;
+    cursor: pointer;
 }
 
 .shopee-main-sort-btn__clicked{
@@ -661,6 +662,7 @@
     border-radius: 2px;
     color: black;
     width: 150px;
+    cursor:pointer;
 }
 
 .shopee-main-sort-btn__page{
@@ -670,6 +672,7 @@
     border:none;
     border-radius: 2px;
     color: black;
+    cursor:pointer;
 }
 
 .shopee-main-sort-pagination{
@@ -684,4 +687,83 @@
 
 .shopee-main-sort-page-number__stop-by{
     color: var(--primary-color);
+}
+
+.shopee-main-product-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shopee-main-product-item{
+    width: 23%;
+    margin-bottom: 10px;
+    margin-right: 1%;
+    background-color: var(--white-color);
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.shopee-main-product-image{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shopee-main-product-image__img{
+    width: 100%;
+    object-fit: contain;
+}
+
+.shopee-main-product-info{
+    padding: 10px;
+}
+
+.shopee-main-product-info__name{
+    font-size: 14px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    line-height: 1.4; 
+    max-height: 2.8em;
+    font-weight: 400;
+    margin: 0;
+}
+
+.shopee-main-product-info__price{
+    color: var(--primary-color);
+    display:flex;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.shopee-main-product-info__price-đ{
+    font-size: 9px;
+    left: 0;
+    text-decoration: underline;
+}
+
+.shopee-main-product-rating{
+    display: flex;
+    position: relative;
+    align-items: center;
+    gap: 5px;
+}
+
+.shopee-main-product-rating__starts{
+    color: #ffb321;
+    font-size: 14px;
+    margin-right: 3px;
+}
+
+.shopee-main-product-info__sold p{
+    margin:0 0 0 5px;
+}
+
+.shopee-main-product-location{
+    color: #757575;
+    margin-top: 5px;
 }
