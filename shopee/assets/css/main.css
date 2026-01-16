@@ -615,3 +615,73 @@
     font-size: 14px;
     font-weight: 400;
 }
+
+.shopee-main-sort{
+    background-color: #ededed;
+    padding: 10px;
+    margin: 20px 0;
+    align-items: center;
+    display:flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.shopee-main-sort-condition{
+    display:flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.shopee-main-sort-title{
+    font-size: 14px;
+    font-weight: 400;
+    color: #757575;
+}
+
+.shopee-main-sort-btn{
+    padding: 10px;
+    font-size: 15px;
+    background-color: var(--white-color);
+    border:none;
+    border-radius: 2px;
+    color: black;
+    width: 100px;
+}
+
+.shopee-main-sort-btn__clicked{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+.shopee-main-sort-cbo{
+    padding: 9px;
+    font-size: 15px;
+    background-color: var(--white-color);
+    border:none;
+    border-radius: 2px;
+    color: black;
+    width: 150px;
+}
+
+.shopee-main-sort-btn__page{
+    padding: 10px;
+    font-size: 15px;
+    background-color: var(--white-color);
+    border:none;
+    border-radius: 2px;
+    color: black;
+}
+
+.shopee-main-sort-pagination{
+    display:flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.shopee-main-sort-page-number{
+    font-size: 14px;
+}
+
+.shopee-main-sort-page-number__stop-by{
+    color: var(--primary-color);
+}
