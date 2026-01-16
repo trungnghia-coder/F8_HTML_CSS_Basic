@@ -459,3 +459,112 @@
     top: -30px;
     right: 0px;
 }
+
+.container{
+    max-width: 1200px;
+    margin: 50px auto;
+}
+
+.shopee-search-filter-status{
+    text-transform: uppercase;
+    display: flex;
+    font-size: 10px;
+    margin: 0 0px 30px;
+}
+
+.shopee-filter-icon{
+    font-size: 16px;
+}
+
+.shopee-search-filter-status__text{
+    margin: 0px 10px 0px 10px;
+}
+
+.shopee-filter-group{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+.shopee-filter-group__heading{
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.shopee-filter-checkbox{
+    display: flex;
+    gap:5px;
+    margin:0 10px 15px 0;
+    font-size: 15px;
+}
+
+.shopee-filter-more__text{
+    display:flex;
+    margin-left: 20px;
+    align-items: center;
+}
+
+.shopee-filter-more__text p{
+    margin-left: 5px;
+    font-size: 14px;
+    margin: 0;
+    cursor: pointer;
+}
+
+.shopee-svg-icon{
+    width: 10px;
+    height: 10px;
+    margin-left: 5px;
+}
+
+.shopee-checkbox-label-star{
+    display: flex;
+    align-items: center;
+    margin: 0px 0 0px 0 !important;
+    font-size: 20px;
+    color: #ffb321;
+}
+
+.shopee-filter-checkbox__up{
+    margin: 0;
+}
+
+.shopee-filter-price-input{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.shopee-filter-price-input .shopee-filter-price-input__min,
+.shopee-filter-price-input .shopee-filter-price-input__max{
+    width: 80px;
+    height: 30px;
+    border-radius: 2px;
+    border: 1px solid #d3d3d3;
+    padding: 5px 10px;
+}
+
+.shopee-filter-price-input .shopee-filter-price-input__min::placeholder,
+.shopee-filter-price-input .shopee-filter-price-input__max::placeholder{
+    font-size: 13px;
+}
+
+.shopee-filter-price-input--seperator{
+    background: #bdbdbd;
+    flex: 1;
+    height: 1px;
+    margin: 0 .625rem;
+}
+
+.shopee-filter-btn-clear__btn,
+.shopee-filter-price-btn__apply{
+    background-color: var(--primary-color);
+    text-transform: uppercase;
+    width: 100%;
+    border: none;
+    color: var(--white-color);
+    padding: 7px 20px;
+    border-radius: 2px;
+    font-size: 15px;
+    margin-top: 10px;
+}
