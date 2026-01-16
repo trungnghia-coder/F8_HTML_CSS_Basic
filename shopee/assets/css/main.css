@@ -552,8 +552,8 @@
 .shopee-filter-price-input--seperator{
     background: #bdbdbd;
     flex: 1;
-    height: 1px;
-    margin: 0 .625rem;
+    height: 10px;
+    margin: 0 10px;
 }
 
 .shopee-filter-btn-clear__btn,
@@ -567,4 +567,51 @@
     border-radius: 2px;
     font-size: 15px;
     margin-top: 10px;
+}
+
+.shopee-main-content{
+    display: flex;
+    gap: 30px;
+}
+
+.shopee-main-event-banner img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 2px;
+}
+
+.shopee-main-event{
+    background-color: var(--white-color);
+    height: 200px;
+}
+
+.shopee-main-event:hover{
+    box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+    cursor: pointer;
+}
+
+.shopee-main-event-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.shopee-main-event-info{
+    display:flex;
+    align-items: center;
+}
+
+.shopee-main-event-event-logo_img{
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+.shopee-main-event-title__text{
+    font-size: 14px;
+    font-weight: 400;
 }
