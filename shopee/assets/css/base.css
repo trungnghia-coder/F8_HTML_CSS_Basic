@@ -49,6 +49,10 @@ body{
     top: 50%;
     transform: translateY(-50%);
 }
+
+.line-top{
+    border-top: 5px solid var(--primary-color);
+}
 /* Common */
 
 /* Animation */
