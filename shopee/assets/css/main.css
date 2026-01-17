@@ -939,3 +939,36 @@
     color: #565656;
     font-size: 12px;
 }
+
+.shopee-main-controller{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.shopee-main-controller__pagination{
+    display: flex;
+    gap: 5px;
+}
+
+.shopee-main-controller__pagination-list{
+    display:flex;
+    gap: 30px;
+}
+
+.shopee-main-controller__pagination-item{
+    list-style: none;
+    font-size: 25px;
+    font-weight: 300;
+    margin: 10px;
+    color: #939393;
+    cursor: pointer;
+}
+
+.shopee-main-controller__pagination-item--active{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    padding: 10px 15px;
+    border-radius: 2px;
+    margin: 0;
+}

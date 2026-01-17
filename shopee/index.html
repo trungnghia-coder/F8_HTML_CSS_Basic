@@ -748,12 +748,28 @@
                   </div>
                 </div>
               </div>
-              </div>
+            </div>
+            <div class="shopee-main-controller">
+              <nav class="shopee-main-controller__pagination">
+                <ul class="shopee-main-controller__pagination-list">
+                  <li class="shopee-main-controller__pagination-item"><</li>
+                  <li
+                    class="shopee-main-controller__pagination-item shopee-main-controller__pagination-item--active"
+                  >
+                    1
+                  </li>
+                  <li class="shopee-main-controller__pagination-item">2</li>
+                  <li class="shopee-main-controller__pagination-item">3</li>
+                  <li class="shopee-main-controller__pagination-item">4</li>
+                  <li class="shopee-main-controller__pagination-item">5</li>
+                  <li class="shopee-main-controller__pagination-item">...</li>
+                  <li class="shopee-main-controller__pagination-item">></li>
+                </ul>
+              </nav>
             </div>
           </div>
         </div>
       </div>
-
       <footer class="footer line-top">
         <div class="grid">
           <div class="footer__content">
@@ -1072,7 +1088,7 @@
 </html>
 
 <script>
-    const productHTML = `
+  const productHTML = `
         <div class="shopee-main-product-item">
             <div class="shopee-main-product-image">
                 <img src="https://down-vn.img.susercontent.com/file/cn-11134207-820l4-mi5cqz79xzpg44.webp" class="shopee-main-product-image__img" />
@@ -1089,9 +1105,9 @@
         </div>
     `;
 
-    const container = document.getElementById('product-list-container');
+  const container = document.getElementById("product-list-container");
 
-    for (let i = 0; i < 29; i++) {
-        container.innerHTML += productHTML;
-    }
+  for (let i = 0; i < 29; i++) {
+    container.innerHTML += productHTML;
+  }
 </script>
